@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDE6"
+    tools:context="com.example.aaron.languagechopper.AboutActivity">
+
+    <TextView
+        android:id="@+id/First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="LANGUAGE CHECKER IS A GROUP PROJECT ASSOCIATED WITH ADVANCED DATA STRUCTURE COURSE, ITS ACCOMPLISHED BY FIVE BOSTON UNIVERSITY STUDENTS IN COLLEGE OF ENGINEERING."
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/Second"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/First"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="THE PROJECT IS AIMED TO DESIGN A LANGUAGE CHECKER WITH HIGHLY TIME AND SPACE EFFICIENCY BASED ON THE DATA MINING CRAWLER, TRIE DATA STRUCTURE, N-GRAM MODEL, MACHINE LEARNING AND ANY OTHER RELATED KNOWLEDGE."
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+    <TextView
+        android:id="@+id/Third"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="FOR NOW, THE CHECKER IS ABLE TO IDENTIFY THE MISSPELLING WORDS, PROVIDE CORRECT POSSIBLE WORDS THE USER MIGHT LOOKING FOR, AND ALSO HIGHLIGHT THE SUSPICIOUS PHRASES OR GRAMMAR ISSUES. THE RESULT SHOWS GREAT PERFORMANCE GIVEN THE EVIDENCE FROM 3-RD PARTY LANGUAGE CHECK TOOLS."
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="56dp" />
+</RelativeLayout>

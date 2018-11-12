@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDE6"
+    tools:context="com.example.aaron.languagechopper.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="295dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="LANGUAGE CHECKER"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Type something here..."
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="100"
+        android:maxLines="3"
+        android:textColor="#273746"
+        android:textColorHint="#273746"
+        android:textCursorDrawable="@null"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/input"
+        android:layout_alignStart="@+id/input"
+        android:layout_below="@+id/CK_btn"
+        android:layout_marginTop="50dp"
+        android:text="Did you mean...?"
+        android:textSize="18dp"
+        android:textColor="#273746"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <Button
+        android:id="@+id/CK_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignStart="@+id/title"
+        android:layout_centerVertical="true"
+        android:onClick="btn_check"
+        android:text="SPELL" />
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ABOUT_btn"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:textColor="#626567" />
+
+    <Button
+        android:id="@+id/CLEAR_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CK_btn"
+        android:layout_alignBottom="@+id/CK_btn"
+        android:layout_alignEnd="@+id/title"
+        android:layout_alignRight="@+id/title"
+        android:onClick="btn_clear"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/ABOUT_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/CK_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/CK_btn"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:onClick="btn_about"
+        android:text="ABOUT"
+        android:textColor="#626567"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/Contact_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/CLEAR_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/CLEAR_btn"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:onClick="btn_contact"
+        android:text="contact"
+        android:textColor="#626567"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/CORRECT_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CK_btn"
+        android:layout_centerHorizontal="true"
+        android:onClick="btn_correct"
+        android:text="GRAMMAR" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CK_btn"
+        android:layout_alignStart="@+id/CK_btn"
+        android:layout_below="@+id/CK_btn"
+        android:layout_marginTop="22dp"
+        android:textSize="18dp"
+        android:textColor="#273746"/>
+
+    <Button
+        android:id="@+id/RECORD_btn"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CK_btn"
+        android:layout_centerHorizontal="true"
+        android:onClick="btn_record"
+        android:text="RECORDING" />
+
+
+</RelativeLayout>

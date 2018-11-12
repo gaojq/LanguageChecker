@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDE6"
+
+    tools:context="com.example.aaron.languagechopper.ContactActivity">
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="JIANGYU WANG: JIANGYU@BU.EDU"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name1"
+        android:layout_alignStart="@+id/name1"
+        android:layout_below="@+id/name1"
+        android:layout_marginTop="28dp"
+        android:text="JIANQING GAO: GAOJQ@BU.EDU"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name2"
+        android:layout_alignStart="@+id/name2"
+        android:layout_below="@+id/name2"
+        android:layout_marginTop="34dp"
+        android:text="YAQIN HUANG: YAQINH@BU.EDU"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name3"
+        android:layout_alignStart="@+id/name3"
+        android:layout_below="@+id/name3"
+        android:layout_marginTop="34dp"
+        android:text="MENGYU HANG: MYHANG@BU.EDU"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name4"
+        android:layout_alignStart="@+id/name4"
+        android:layout_below="@+id/name4"
+        android:layout_marginTop="37dp"
+        android:text="YOU HAN: YHAN94@BU.EDU"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+</RelativeLayout>
